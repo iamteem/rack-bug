@@ -3,6 +3,7 @@ module Rack
 
     class TemplatesPanel < Panel
       require "rack/bug/panels/templates_panel/actionview_extension"
+      require "rack/bug/panels/templates_panel/sinatra_extension"
 
       autoload :Trace,      "rack/bug/panels/templates_panel/trace"
       autoload :Rendering,  "rack/bug/panels/templates_panel/rendering"
